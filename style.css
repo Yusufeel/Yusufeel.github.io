@@ -31,10 +31,6 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {
-    height: 100px;
-    width: 200px;
-}
 
 nav ul {
     list-style: none;
