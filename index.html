@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf Demirel Portfolyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdb274f49c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="scripts.js"></script>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul>
+                    <li><a href="#homepage">Anasayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>                   
+                    <li><a href="#services">Hizmetler</a></li>
+                    <li><a href="#portfolio">Portfolyo</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Merhaba,<br>Ben<span> Yusuf Demirel</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-----------hakkımda---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Hakkımda</h1>
+                    <p>Merhaba ben Yusuf Demirel. 2003 yılında Diyarbakır'da doğdum.Mardinliyim. İstanbul Gelişim Üniversitesi Yazılım Mühendisliği bölümünde okuyorum. Html,Css,Js ve Python dilleri üzerinde kendimi geliştirmeye çalışıyorum.Hobilerim video oyunları,futbol,programlama ve uygulama geliştirme.Yazılım ve teknolojiye olan ilgim sayesinde kendimi geliştirmeye devam ediyorum.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('yetenekler')">Yetenekler</p>
+                        <p class="tab-links" onclick="opentab('deneyim')">Deneyim</p>
+                        <p class="tab-links" onclick="opentab('eğitim')">Eğitim</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="yetenekler">
+                        <ul>
+                            <li><span>Web Geliştirme</span><br>Html,Css,Js Kullanarak Web Sitesi Geliştirme</li>
+                            <li><span>Data Analizi</span><br>Python Dili İle Veri Analiz Etme</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="deneyim">
+                        <ul>
+                            <li><span>2024-Devam Ediyor</span><br>Socradar Şirketinde Stajyer Geliştirici</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eğitim">
+                        <ul>
+                            <li><span>2021-Devam Ediyor</span><br>İstanbul Gelişim Üniversitesi Yazılım Mühendisliği</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-----------hizmetler---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Hizmetler</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Geliştirme</h2>
+                    <p>Web geliştirme alanında çalışan biriyim. HTML, CSS ve JavaScript kullanarak çeşitli web projeleri üzerinde çalışıyorum. Kullanıcı dostu ve işlevsel web siteleri oluşturmayı hedefliyorum. Her projede yeni şeyler öğrenme ve becerilerimi geliştirme fırsatı buluyorum. Web teknolojilerindeki gelişmeleri takip etmek ve projelerimi bu doğrultuda güncellemek benim için önemli.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Veri Analizi</h2>
+                    <p>Veri analizi alanında çalışan biriyim. Python kullanarak çeşitli veri analizi projeleri üzerinde çalışıyorum. Bu projelerde genellikle NumPy ve Pandas gibi kütüphaneleri kullanıyorum. Veri setlerini analiz ediyor, bilgileri çıkarıyor ve görselleştirme teknikleriyle sunuyorum. Her proje, yeni analiz yöntemleri öğrenme ve becerilerimi geliştirme fırsatı sunuyor. Veri analizi dünyasındaki gelişmeleri takip etmek ve projelerimi bu doğrultuda güncellemek benim için önemli.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------portfolyo---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Çalışmalarım</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Veri Görselleştirme</h3>
+                        <p>Bu proje, veri analizi sonuçlarını etkili ve anlaşılır bir şekilde görselleştirmeyi amaçlar. Grafikler, grafikler ve görsel öğeler kullanılarak verilerin anlamlı bir şekilde sunulması sağlanır. Proje, veri keşfi sürecini hızlandırmak ve veri odaklı karar alma süreçlerini desteklemek için tasarlanmıştır.</p>
+                        <a href="https://github.com/Yusufeel/Data-Visualization" target="_blank" rel="noopener" title="Github Data Visualization"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Kütüphane Otomasyonu</h3>
+                        <p>Bu proje, kütüphane yönetimini kolaylaştırmak için geliştirilmiş bir yazılımdır. Kullanıcılar, kitapları arayabilir, ödünç alabilir ve iade edebilirler. Kütüphane personeli, envanteri yönetebilir ve kullanıcıları takip edebilir. Bu otomasyon sistemi, kütüphane işlemlerini daha verimli hale getirirken, kullanıcıların kütüphane hizmetlerinden daha iyi yararlanmalarını sağlar.</p>
+                        <a href="https://github.com/Yusufeel/Library-Automation" target="_blank" rel="noopener" title="Github Library Automation"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------iletişim---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Benimle İletişime Geçin</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> yfeeldemirel@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +90 (537) 438 44 12</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yusuf-demirel-b18249256/" target="_blank" rel="noopener" title="Linkedin Account"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Yusufeel" target="_blank" rel="noopener" title="Github Account"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/feel_ysf/" target="_blank" rel="noopener" title="Instagram Account"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mdoqbbrk" method="POST"">
+                        <input type="text" name="Name" placeholder="Ad Soyad" required>
+                        <input type="email" name="email" placeholder="Email Adresiniz " required>
+                        <textarea name="Message" rows="6" placeholder="Mesajınız"></textarea>
+                        <button type="submit" class="btn btn2">Gönder</button>
+                        
+                         
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Yusuf Demirel.</p>
+        </div>
+    </div>
+
+</body>
+</html>
